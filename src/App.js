@@ -13,6 +13,10 @@ const App = () => {
       path: "/detail",
       element: <Detail />,
     },
+    {
+      path: "/movie/:id",
+      element: <Detail />,
+    },
   ]);
   return <RouterProvider router={router} />;
 };
